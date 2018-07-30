@@ -1,6 +1,6 @@
 # Pull base image
 # ---------------
-FROM neo4j:latest
+FROM neo4j:3.4
 
 # Author
 # ----------
