@@ -1,12 +1,12 @@
 # Pull base image
 # ---------------
-FROM neo4j:3.4
+FROM neo4j:latest
 
 # Author
 # ----------
-MAINTAINER Mark Heckler <mark.heckler@gmail.com, @MkHeck>
+MAINTAINER Mark Heckler <mark.heckler@gmail.com, @mkheck>
 
 # Build the container
 # -------------------
-EXPOSE 7474 7687
+EXPOSE 7474 7473 7687
 
